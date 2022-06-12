@@ -1,0 +1,60 @@
+.banner {
+  /*
+  background-color: $bg-color;
+
+   */
+  background: $color-gradient-one;
+
+  /* Upper part */
+
+  &__upper-part {
+    padding: 150px 0 200px;
+  }
+  &__subtitles {
+    color: $accent-color;
+    font-family: $main-font-family;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  &__title {
+    color: $usual-color;
+    font-weight: 800;
+    max-width: 604px;
+    text-align: left;
+    font-size: 55px;
+  }
+  &__description {
+    margin-top: 40px;
+    color: $usual-color;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.8;
+    max-width: 558px;
+  }
+
+  &__control-panel {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+  }
+
+  /* Upper part - right side */
+
+  &__right-side-upper {
+    position: relative;
+    figure {
+      position: absolute;
+      top: -110px;
+    }
+  }
+
+  /* Bottom part */
+
+  &__bottom-part {
+    padding: 40px 0 40px;
+    justify-content: space-between;
+  }
+}
