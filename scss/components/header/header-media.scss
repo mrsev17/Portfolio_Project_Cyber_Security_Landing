@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  .header {
+    &__navigation-bar {
+      li > a {
+        &:hover {
+        transform: scale(1.0);
+        }
+      }
+    }
+    &__form-sign-in {
+      justify-content: end;
+    }
+  }
+}
