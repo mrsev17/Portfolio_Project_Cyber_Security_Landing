@@ -40,3 +40,25 @@
     }
   }
 }
+
+@media (max-width: 864px) {
+  .banner {
+    &__right-side-upper {
+      margin: 30px 0 0;
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .banner {
+    &__control-panel {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__bottom-part {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
