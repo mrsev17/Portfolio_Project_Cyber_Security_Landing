@@ -175,14 +175,8 @@
 
         <section class="perspective">
 
-            <!-- Some comment -->
-
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="perspective__slider-indicators carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
@@ -196,7 +190,7 @@
 
                                         <div class="container">
                                             <figure>
-                                                <img src="assets/icons/benefits_icon-one.png" alt="One">
+                                                <img class="perspective__icon-card-one" src="assets/icons/benefits_icon-one.png" alt="One">
                                             </figure>
 
                                             <h3 class="perspective__card-title">Naxly as the Winners in Global Agency Awards</h3>
@@ -208,7 +202,7 @@
                                     <div class="perspective__card">
                                         <div class="container">
                                             <figure>
-                                                <img src="assets/icons/benefits_icon-two.png" alt="Two">
+                                                <img class="perspective__icon-card" src="assets/icons/benefits_icon-two.png" alt="Two">
                                             </figure>
 
                                             <h3 class="perspective__card-title">Expert Prespective Agency Awards</h3>
@@ -221,7 +215,7 @@
 
                                         <div class="container">
                                             <figure>
-                                                <img src="assets/icons/benefits_icon-three.png" alt="Three">
+                                                <img class="perspective__icon-card" src="assets/icons/benefits_icon-three.png" alt="Three">
                                             </figure>
 
                                             <h3 class="perspective__card-title">Business Prespective Global Agency Awards</h3>
@@ -234,7 +228,7 @@
 
                                         <div class="container">
                                             <figure>
-                                                <img src="assets/icons/benefits_icon-four.png" alt="Four">
+                                                <img class="perspective__icon-card" src="assets/icons/benefits_icon-four.png" alt="Four">
                                             </figure>
 
                                             <h3 class="perspective__card-title">Value for Results in Global Agency Awards</h3>
@@ -246,7 +240,7 @@
                                     <div class="perspective__card">
                                         <div class="container">
                                             <figure>
-                                                <img src="assets/icons/benefits_icon-five.png" alt="Five">
+                                                <img class="perspective__icon-card" src="assets/icons/benefits_icon-five.png" alt="Five">
                                             </figure>
 
                                             <h3 class="perspective__card-title">Global Experience in Agency Awards</h3>
@@ -419,101 +413,15 @@
 
                     </div>
                 </div>
-                <!--
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                -->
-            </div>
 
-
-
-
-
-
-            <!--
-
-            <div class="container-fluid">
-                
-                <div class="row">
-                    
-                    <div class="perspective__wrapper col-12 d-flex">
-                        
-                        <div class="perspective__card">
-
-                            <div class="container">
-                                <figure>
-                                    <img src="assets/icons/benefits_icon-one.png" alt="One">
-                                </figure>
-
-                                <h3 class="perspective__card-title">Naxly as the Winners in Global Agency Awards</h3>
-
-                                <p class="perspective__card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-                            </div>
-                        </div>
-
-                        <div class="perspective__card">
-                            <div class="container">
-                                <figure>
-                                <img src="assets/icons/benefits_icon-two.png" alt="Two">
-                            </figure>
-
-                                <h3 class="perspective__card-title">Expert Prespective Agency Awards</h3>
-
-                                <p class="perspective__card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-                            </div>
-                        </div>
-
-                        <div class="perspective__card">
-
-                            <div class="container">
-                                <figure>
-                                <img src="assets/icons/benefits_icon-three.png" alt="Three">
-                            </figure>
-
-                                <h3 class="perspective__card-title">Business Prespective Global Agency Awards</h3>
-
-                                <p class="perspective__card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-                            </div>
-                        </div>
-
-                        <div class="perspective__card">
-
-                            <div class="container">
-                                <figure>
-                                <img src="assets/icons/benefits_icon-four.png" alt="Four">
-                            </figure>
-
-                                <h3 class="perspective__card-title">Value for Results in Global Agency Awards</h3>
-
-                                <p class="perspective__card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-                            </div>
-                        </div>
-
-                        <div class="perspective__card">
-                            <div class="container">
-                                <figure>
-                                <img src="assets/icons/benefits_icon-five.png" alt="Five">
-                            </figure>
-
-                                <h3 class="perspective__card-title">Global Experience in Agency Awards</h3>
-
-                                <p class="perspective__card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
+                <div class="perspective__slider-indicators carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                
+
             </div>
 
-            -->
 
         </section>
 

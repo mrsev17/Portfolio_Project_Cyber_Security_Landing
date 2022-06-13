@@ -351,7 +351,7 @@ body {
 }
 .perspective {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
-  padding: 30px 0 30px;
+  padding: 30px 0 60px;
 }
 .perspective__wrapper {
   gap: 18px;
@@ -366,6 +366,8 @@ body {
 .perspective__card:hover {
   -webkit-box-shadow: 5px 5px 15px 5px #6F5EFF;
   box-shadow: 5px 5px 15px 5px #6F5EFF;
+  transition: 0.4s;
+  transform: scale(1.05);
 }
 .perspective__card-title {
   margin-top: 30px;
@@ -379,8 +381,25 @@ body {
   font-size: 16px;
   opacity: 0.7;
 }
+.perspective__icon-card {
+  width: 100%;
+  max-width: 78px;
+}
+.perspective__icon-card-one {
+  width: 100%;
+  max-width: 88px;
+}
+.perspective .carousel-item {
+  padding: 30px 0 30px;
+}
 .perspective .carousel-indicators {
   bottom: -46px;
+}
+
+@media (max-width: 998px) {
+  .perspective__wrapper {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

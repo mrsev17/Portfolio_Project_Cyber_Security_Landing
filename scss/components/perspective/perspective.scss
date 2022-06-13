@@ -1,6 +1,6 @@
 .perspective {
   background: $color-gradient-one;
-  padding: 30px 0 30px;
+  padding: 30px 0 60px;
   &__wrapper {
     gap: 18px;
   }
@@ -13,6 +13,8 @@
     &:hover {
       -webkit-box-shadow: 5px 5px 15px 5px #6F5EFF;
       box-shadow: 5px 5px 15px 5px #6F5EFF;
+      transition: 0.4s;
+      transform: scale(1.05);
     }
   }
   &__card-title {
@@ -28,8 +30,21 @@
     font-size: 16px;
     opacity: 0.7;
   }
+  &__icon-card {
+    width: 100%;
+    max-width: 78px;
+  }
+  &__icon-card-one {
+    width: 100%;
+    max-width: 88px;
+  }
+
+  .carousel-item {
+    padding: 30px 0 30px;
+  }
   .carousel-indicators {
     bottom: -46px;
   }
+
 
 }
