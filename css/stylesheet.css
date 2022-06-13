@@ -349,5 +349,38 @@ body {
     width: 100%;
   }
 }
+.perspective {
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 35%, rgb(0, 212, 255) 100%);
+  padding: 30px 0 30px;
+}
+.perspective__wrapper {
+  gap: 18px;
+}
+.perspective__card {
+  background-color: #6666ff;
+  border-radius: 20px;
+}
+.perspective__card figure > img {
+  margin: 46px auto 0;
+}
+.perspective__card:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #6F5EFF;
+  box-shadow: 5px 5px 15px 5px #6F5EFF;
+}
+.perspective__card-title {
+  margin-top: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+.perspective__card-description {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.perspective .carousel-indicators {
+  bottom: -46px;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
