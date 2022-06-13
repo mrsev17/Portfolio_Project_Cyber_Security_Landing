@@ -1,11 +1,11 @@
 .perspective {
-  background: $color-gradient-one;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,29,204,1) 42%, rgba(0,212,255,1) 100%);
   padding: 30px 0 60px;
   &__wrapper {
     gap: 18px;
   }
   &__card {
-    background-color: #6666ff;
+
     border-radius: 20px;
     figure > img {
       margin: 46px auto 0;
@@ -21,6 +21,7 @@
     margin-top: 30px;
     font-size: 24px;
     text-align: center;
+    color: #ffffff;
   }
 
   &__card-description {
@@ -29,6 +30,7 @@
     font-weight: 600;
     font-size: 16px;
     opacity: 0.7;
+    color: #f0f0f0;
   }
   &__icon-card {
     width: 100%;
