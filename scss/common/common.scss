@@ -12,7 +12,7 @@ body {
     padding: 14px 28px;
     text-decoration: none;
     &:hover {
-      background-color: black;
+      background-color: transparent;
       color: $accent-color;
       transition: .5s;
     }

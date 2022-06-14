@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+  .solutions {
+    padding: 80px 0 60px;
+    &__picture {
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .solutions {
+    &__wrapper {
+      flex-direction: column;
+    }
+    .col-6 {
+      width: 100%;
+      text-align: center;
+    }
+    &__title,
+    &__description-one,
+    &__description-two,
+    &__description-three,
+    &__description-four {
+      margin: 0 auto;
+    }
+    &__picture {
+      margin: 40px auto 0;
+    }
+  }
+}
+

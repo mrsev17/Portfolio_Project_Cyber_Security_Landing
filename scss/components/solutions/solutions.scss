@@ -1,0 +1,38 @@
+.solutions {
+  background-color: $bg-color;
+  padding: 160px 0 120px;
+
+  /* Left side */
+
+  &__title {
+    color: $usual-color;
+    max-width: 548px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  &__description-one {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: $font-size-description;
+    color: $usual-color;
+    max-width: 460px;
+    opacity: 0.7;
+  }
+  &__description-two,
+  &__description-three,
+  &__description-four {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: $font-size-description;
+    color: $usual-color;
+    max-width: 460px;
+    opacity: 0.7;
+  }
+
+  /* Right side */
+
+  &__picture {
+    margin-left: -100px;
+    margin-top: -50px;
+  }
+}
