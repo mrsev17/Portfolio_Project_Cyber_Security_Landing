@@ -22,7 +22,7 @@ ul {
 a {
   display: inline-block;
   color: #000;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 body,
@@ -88,6 +88,15 @@ select {
 
 body {
   font-family: "Open Sans", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: white !important;
+  border-color: transparent !important;
 }
 
 .button-regular {
@@ -456,6 +465,120 @@ body {
   }
   .solutions__picture {
     margin: 40px auto 0;
+  }
+}
+.footer {
+  background-color: black;
+  padding: 0 0 100px;
+  /* Left part */
+  /* Mid part */
+  /* Right side */
+}
+.footer__logo {
+  font-size: 16px;
+  color: #3A68B8;
+  font-weight: 600;
+}
+.footer__description {
+  margin-top: 10px;
+  max-width: 262px;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.footer__wrapper-contacts {
+  margin-top: 36px;
+}
+.footer__contact {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin: 6px 0 0 10px;
+}
+.footer__wrapper-mid-content {
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer__title-inform {
+  margin-top: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.footer__right-side-text {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.footer__item-text {
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.footer__wrapper-information-items {
+  margin-top: 32px;
+  gap: 17px;
+}
+.footer__link {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer__networks-links {
+  margin-top: 20px;
+  gap: 30px;
+}
+.footer__control-language {
+  margin-top: 50px;
+}
+.footer__button-language {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+  .footer__wrapper-information-items {
+    gap: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .footer__wrapper-information-items {
+    gap: 10px;
+  }
+  .footer__wrapper-footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__wrapper-footer-content .col-3 {
+    width: 100%;
+  }
+  .footer__wrapper-footer-content .col-6 {
+    width: 100%;
+  }
+  .footer__logo-image {
+    margin: 0 auto;
+  }
+  .footer__logo {
+    text-align: center;
+  }
+  .footer__description {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__location, .footer__phone, .footer__mail {
+    justify-content: center;
+  }
+  .footer__title-inform, .footer__right-side-text {
+    text-align: center;
+  }
+  .footer__wrapper-link-site {
+    text-align: center;
+  }
+  .footer__networks-links {
+    justify-content: center;
+  }
+  .footer__control-language {
+    text-align: center;
   }
 }
 

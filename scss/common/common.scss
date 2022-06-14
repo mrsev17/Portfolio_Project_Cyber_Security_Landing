@@ -4,6 +4,15 @@ body {
   font-family: $main-font-family !important;
 }
 
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: white !important;
+  border-color: transparent !important;
+}
+
 .button-regular {
     background-color: $accent-color;
     color: $usual-color;

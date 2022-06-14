@@ -1,0 +1,84 @@
+.footer {
+  background-color: $bg-color;
+  padding: 0 0 100px;
+
+  /* Left part */
+
+  &__logo {
+    font-size: $font-size-description;
+    color: $accent-color;
+    font-weight: 600;
+  }
+
+  &__description {
+    margin-top: 10px;
+    max-width: 262px;
+    font-size: 14px;
+    color: $usual-color;
+    opacity: 0.7;
+  }
+
+  &__wrapper-contacts {
+    margin-top: 36px;
+  }
+
+  &__contact {
+    font-size: 14px;
+    font-weight: 500;
+    color: $usual-color;
+    margin: 6px 0 0 10px;
+  }
+
+  /* Mid part */
+
+  &__wrapper-mid-content {
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__title-inform {
+    margin-top: 24px;
+    text-transform: uppercase;
+    color: $usual-color;
+    font-size: $font-size-description;
+  }
+
+  /* Right side */
+
+  &__right-side-text {
+    margin-top: 28px;
+    font-size: 14px;
+    color: $usual-color;
+    opacity: 0.7;
+  }
+
+  &__item-text {
+    font-size: 14px;
+    color: $usual-color;
+    opacity: 0.7;
+  }
+
+  &__wrapper-information-items {
+    margin-top: 32px;
+    gap: 17px;
+  }
+
+  &__link {
+    color: $usual-color;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__networks-links {
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  &__control-language {
+    margin-top: 50px;
+  }
+  &__button-language {
+    color: $usual-color;
+  }
+
+}
