@@ -192,6 +192,16 @@ a {
     justify-content: end;
   }
 }
+@media (max-width: 972px) {
+  .header__navigation-bar {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 384px) {
+  .header .navbar-toggler {
+    margin: 0 auto;
+  }
+}
 .banner {
   /*
   background-color: $bg-color;

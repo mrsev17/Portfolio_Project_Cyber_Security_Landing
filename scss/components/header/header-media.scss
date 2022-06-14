@@ -12,3 +12,19 @@
     }
   }
 }
+
+@media (max-width: 972px) {
+  .header {
+    &__navigation-bar {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+@media (max-width: 384px) {
+  .header {
+    .navbar-toggler {
+      margin: 0 auto;
+    }
+  }
+}
