@@ -15,12 +15,17 @@
     }
     &__title {
       text-align: center;
+      margin-left: 0;
     }
     &__description {
       text-align: center;
+      margin-left: 0;
     }
     &__wrapper-control {
       text-align: center;
+    }
+    &__control {
+      margin-left: 0;
     }
   }
 }
