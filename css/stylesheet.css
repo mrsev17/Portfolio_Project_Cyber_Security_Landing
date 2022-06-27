@@ -1,3 +1,5 @@
+
+
 html {
   height: 100%;
 }
@@ -201,6 +203,9 @@ a {
   .header .navbar-toggler {
     margin: 0 auto;
   }
+  .header__navigation-bar {
+    margin-top: 20px;
+  }
 }
 .banner {
   /*
@@ -317,12 +322,14 @@ a {
 }
 .data__title {
   margin-top: 150px;
+  margin-left: 50px;
   color: #FFFFFF;
   font-weight: 700;
   font-size: 40px;
   max-width: 484px;
 }
 .data__description {
+  margin-left: 50px;
   margin-top: 15px;
   color: #FFFFFF;
   font-weight: 600;
@@ -332,6 +339,7 @@ a {
 }
 .data__control {
   margin-top: 40px;
+  margin-left: 50px;
 }
 .data__wrapper-picture {
   margin-left: -50px;

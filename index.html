@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <title>Artificial intelligence and Cyber Security</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -13,7 +15,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header ">
 
         <div class="container">
 
@@ -69,7 +71,7 @@
 
                     <div class="banner__upper-part d-flex">
 
-                        <div class="banner__left-side-upper col-6">
+                        <div class="banner__left-side-upper col-6 wow slideInLeft">
 
                             <p class="banner__subtitles">Next generation platform</p>
 
@@ -97,7 +99,7 @@
 
                         </div>
 
-                        <div class="banner__right-side-upper col-6">
+                        <div class="banner__right-side-upper col-6 wow slideInRight">
 
                             <figure>
                                 <img src="assets/images/banner_main-picture.png" alt="Banner">
@@ -113,19 +115,19 @@
 
                     <div class="banner__bottom-part d-flex">
 
-                        <figure>
+                        <figure class="wow bounceInUp">
                             <img src="assets/images/banner_companies_one.png" alt="One">
                         </figure>
 
-                        <figure>
+                        <figure class="wow bounceInUp">
                             <img src="assets/images/banner_companies_two.png" alt="Two">
                         </figure>
                         
-                        <figure>
+                        <figure class="wow bounceInUp">
                             <img src="assets/images/banner_companies_three.png" alt="Three">
                         </figure>
                         
-                        <figure>
+                        <figure class="wow bounceInUp">
                             <img src="assets/images/banner_companies_four.png" alt="Four">
                         </figure>
 
@@ -142,11 +144,11 @@
 
             <div class="container">
 
-                <div class="data__wrapper-main-content row d-flex">
+                <div class="data__wrapper-main-content row d-flex justify-content-between">
 
                     <div class="data__left-side col-6">
 
-                        <figure class="data__wrapper-picture">
+                        <figure class="data__wrapper-picture wow slideInRight">
 
                             <img src="assets/images/data_main-picture.png" alt="Data">
 
@@ -156,13 +158,13 @@
 
                     <div class="data__right-side col-6">
 
-                        <h2 class="data__title">Apply AI, Deep Learning and Data Sciece to solve</h2>
+                        <h2 class="data__title  wow slideInLeft">Apply AI, Deep Learning and Data Sciece to solve</h2>
 
-                        <p class="data__description">
+                        <p class="data__description wow slideInLeft">
                             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                         </p>
 
-                        <div class="data__wrapper-control">
+                        <div class="data__wrapper-control wow slideInLeft">
                             <a class="data__control button-regular" href="#">Learn More</a>
                         </div>
                     </div>
@@ -172,7 +174,7 @@
             </div>
 
         </section>
-
+        <!--
         <section class="perspective">
 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -428,6 +430,7 @@
 
 
         </section>
+        -->
 
         <section class="solutions">
 
@@ -435,31 +438,31 @@
 
                 <div class="solutions__wrapper row d-flex">
 
-                    <div class="solutions__left-side col-6">
+                    <div class="solutions__left-side col-6 ">
 
-                        <h2 class="solutions__title">
+                        <h2 class="solutions__title wow slideInLeft">
                             What our clients say about our awesome solutions
                         </h2>
 
-                        <p class="solutions__description-one">
+                        <p class="solutions__description-one wow slideInLeft">
                             To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.
                         </p>
 
-                        <p class="solutions__description-two">
+                        <p class="solutions__description-two wow slideInLeft">
                             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing.
                         </p>
 
-                        <p class="solutions__description-three">
+                        <p class="solutions__description-three wow slideInLeft">
                             Lorem ipsum is placeholder previewing layouts and visual mockups.
                         </p>
 
-                        <p class="solutions__description-four">
+                        <p class="solutions__description-four wow slideInLeft">
                             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                         </p>
 
                     </div>
 
-                    <div class="solutions__right-side col-6">
+                    <div class="solutions__right-side col-6 wow slideInRight">
 
                         <figure>
                             <img class="solutions__picture" src="assets/images/solutions_picture.png" alt="Solutions">
@@ -680,6 +683,12 @@
 
 
     <!-- JavaScript Bundle with Popper -->
+
+    <script src="script/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -6,12 +6,14 @@
 
   &__title {
     margin-top: 150px;
+    margin-left: 50px;
     color: $usual-color;
     font-weight: 700;
     font-size: 40px;
     max-width: 484px;
   }
   &__description {
+    margin-left: 50px;
     margin-top: 15px;
     color: $usual-color;
     font-weight: 600;
@@ -21,6 +23,7 @@
   }
   &__control {
     margin-top: 40px;
+    margin-left: 50px;
   }
 
   /* Left side */
